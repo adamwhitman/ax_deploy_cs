@@ -20,13 +20,13 @@ Prerequisites
  Windows
   Script Name:   AxAgentInstall.ps1
  
- Script:        .\Automox_Installer-1.0.31.msi ACCESSKEY=<your_org_access_key> /quiet
+  Script:        .\Automox_Installer-1.0.31.msi ACCESSKEY=<your_org_access_key> /quiet
   
  
  Linux
   Script Name:   AXInstallLinux.bs
  
- Script:        #!/bin/bash
+  Script:        #!/bin/bash
                 curl -sS "https://console.automox.com/downloadInstaller?accesskey=<your_org_access_key" | sudo bash
                 sudo service amagent stop
                 sleep 5
@@ -36,11 +36,11 @@ Prerequisites
  Mac 
   Script Name:   AXInstallMac.bs
  
- Script:        #!/bin/bash
+  Script:        #!/bin/bash
                 curl -sS "https://console.automox.com/downloadInstaller?accesskey=<your_org_access_key>" | sudo bash
 
  
- Permission:    RTR Active Responder and RTR Administrator for all scripts
+  Permission:    RTR Active Responder and RTR Administrator for all scripts
   
   You will need to add your Automox organization access key where it says <your_org_access_key> to the script command. example:
   ACCESSKEY=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
