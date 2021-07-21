@@ -4,11 +4,11 @@ Prerequisites
 
 1. You need to have RTR enabled in the Response policy assigned to the device in Falcon. Ensure "runcscript" and "put" are also fully enabled. The script uses Crowdstrike RTR to push the agent out. You also need to have full Falcon admin priviliges.
 
-2. Follow the instruction to download and install the PSFalcon module. https://github.com/CrowdStrike/psfalcon/wiki/Installation
+2. Follow the instruction to download an install the PSFalcon module. https://github.com/CrowdStrike/psfalcon/wiki/Installation
 
 3. API Credentials: Interacting with the CrowdStrike Falcon API requires an API Client ID and Secret. You will need to create this from the Falcon console to use for the script.
 
-4. *For Windows Deployment Only* - Upload the Automox .msi file: Upload the Automox_Installer-1.0.31.msi file using the Falcon Console by navigating to Response Scripts & Files > "PUT" Files. From there, click 'Upload File' and upload the Automox_Installer-1.0.31.msi file. DO NOT change the naming of the .msi file. The File Name must read 'Automox_Installer-1.0.31.msi'. This gets uploaded to the working directory of the device for Falcon sensor. Here is the link to Download the Automox_Installer-1.0.31.msi
+4. *For Windows Deployment Only* - Upload the Automox .msi file: Upload the Automox_Installer-1.0.31.msi file using the Falcon Console by navigating to Response Scripts & Files > "PUT" Files. From there, click 'Upload File' and upload the Automox_Installer-1.0.31.msi file. DO NOT change the naming of the .msi file. The File Name must read 'Automox_Installer-1.0.31.msi'. This gets uploaded to the working directory of the device for Falcon sensor. 
 
 5. Upload the installation script to install Automox for each of the OS's you want to deploy to by navigating to Response Scripts & Files > "Custom Scripts":
 
