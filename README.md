@@ -25,17 +25,17 @@ Prerequisites
   Script Name:   AXInstallLinux.bs
  
   Script:        #!/bin/bash
-                curl -sS "https://console.automox.com/downloadInstaller?accesskey=<your_org_access_key" | sudo bash
-                sudo service amagent stop
-                sleep 5
-                sudo service amagent start 
+                 curl -sS "https://console.automox.com/downloadInstaller?accesskey=<your_org_access_key" | sudo bash
+                 sudo service amagent stop
+                 sleep 5
+                 sudo service amagent start 
  
  
  Mac: 
   Script Name:   AXInstallMac.bs
  
   Script:        #!/bin/bash
-                curl -sS "https://console.automox.com/downloadInstaller?accesskey=<your_org_access_key>" | sudo bash
+                 curl -sS "https://console.automox.com/downloadInstaller?accesskey=<your_org_access_key>" | sudo bash
 
  
   Permission:    RTR Active Responder and RTR Administrator for all scripts
