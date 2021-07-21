@@ -1,5 +1,3 @@
-# ax_deploy_cs
-
 **Deploying the Automox agent using the Falcon sensor**
 
 Prerequisites
