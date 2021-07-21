@@ -15,13 +15,13 @@ Prerequisites
 5. Upload the installation script to install Automox for each of the OS's you want to deploy to by navigating to Response Scripts & Files > "Custom Scripts":
 
  
- Windows:
+** Windows**
  Script Name:   AxAgentInstall.ps1
  
  Script:        .\Automox_Installer-1.0.31.msi ACCESSKEY=<your_org_access_key> /quiet
   
  
- Linux:
+ **Linux**
  Script Name:   AXInstallLinux.bs
  
  Script:        #!/bin/bash
@@ -31,7 +31,7 @@ Prerequisites
                 sudo service amagent start 
  
  
- Mac:
+** Mac**
  Script Name:   AXInstallMac.bs
  
  Script:        #!/bin/bash
